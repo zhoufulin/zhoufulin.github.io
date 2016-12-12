@@ -1,0 +1,39 @@
+body {
+    background:url("../img/3.jpg") ;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Microsoft Yahei", "Arial", "SimHei";
+}
+
+.task {
+    width: 200px;
+    height: 120px;
+    background:url("../img/1.jpg");
+    background-size: 200px 120px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.task:hover {
+    box-shadow: 5px 5px #333;
+}
+
+.task>a {
+    display: block;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #70aa32;
+}
+
+a:hover {
+    font-weight: bold;
+    color: green;
+}
